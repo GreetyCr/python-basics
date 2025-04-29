@@ -3,11 +3,11 @@
 
 def main():
   name = input("¿Cuál es su nombre? ")
-  print("Hello, World!" + name)
+  print("Hola " + name)
   #Haciendo uso de format
-  print("Hello, World! {}".format(name))
+  print("Hola {}".format(name))
   #Haciendo uso de f-string
-  print(f"Hello, World! {name}")
+  print(f"Hola {name}")
 
 if __name__ == "__main__":
   main()
