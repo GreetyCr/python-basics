@@ -10,7 +10,7 @@ def main():
   average = total / len(numbers)
   print(f"El promedio de la lista es: {average}")
 
-  #Otra forma de hacerlo  
+  #Otra forma de hacerlo con input y map
   numbers = list(map(int, input("Ingrese una lista de números separados por espacios: ").split()))
   total = 0
   for number in numbers:
@@ -18,6 +18,6 @@ def main():
   average = total / len(numbers)
   print(f"El promedio de la lista es: {average}")
 
-  
+
 if __name__ == "__main__":
   main()
